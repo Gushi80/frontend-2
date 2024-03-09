@@ -6,12 +6,11 @@ import step from "../assets/img/fillers.jpg";
 import fill from "../assets/img/getto.jpg"
 import open from "../assets/img/get.jpg"
 import praise from "../assets/img/somafo.jpg"
+import Header from "../components/common/Header";
 
 function Meet() {
   return (
     <>
-      
-
       <div className="container">
         <div className="gradient"></div>
         <img className="step" src={step} alt="man in white" />
@@ -24,7 +23,7 @@ function Meet() {
             <br />
             When : 11am every Sunday
             <br />
-            Address : Ekumfi Otuam - Central Region
+            Address : 3090 Pine Valley Rd, Columbus OHIO, 43219
           </p>
           <img className="mama" src={fill} />
         </div>
@@ -34,7 +33,7 @@ function Meet() {
         </div>
         <div className="middle">
           <h1>
-            "THE MISSION IS TO BRING HEALING <br />
+            "THE MISSION IS TO BRING HEALING AND SALVATION <br />
             TO THE WORLD"
           </h1>
           <img className="praise" src={praise} />

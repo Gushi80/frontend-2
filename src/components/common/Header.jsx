@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from "../../assets/img/logo 1.png"
+import icon from "../../assets/img/icon.jpg"
 import search from "../../assets/img/search.png"
 
 export default function Header() {
@@ -8,7 +8,7 @@ export default function Header() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
       <Link className="navbar-brand" to="/">
-        <img className="logo1" src={logo} alt="" /> ASOMDWEE SOM
+        <img className="icon" src={icon} alt="" /> ASOMDWEE NTONTOMSOM DIASPORA
       </Link>
       <button
         className="navbar-toggler"
@@ -49,7 +49,7 @@ export default function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="links" to="#">
+            <Link className="links" to="Donate">
               Donate
             </Link>
           </li>

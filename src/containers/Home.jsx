@@ -9,12 +9,14 @@ import somafo from "../assets/img/somafo.jpg";
 import { Link } from "react-router-dom";
 
 function Home() {
+
   const [isLoggedIn, setIsLoggedIn] = useState(JSON.parse(
     localStorage.getItem("CHURCH_WEBSITE_LOGIN_USER_KEY")
   )?.token);
 
   return (
     <>
+
       <div className="container">
         <img className="step" src={max} alt="man in white" />
         <h2>ASOMDWEE NTONTOM SOM DIASPORA</h2>
@@ -61,6 +63,7 @@ function Home() {
           <h5>Nyame Somafo Yawoh</h5>
         </div>
       </article>
+ 
     </>
   );
 }

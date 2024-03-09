@@ -3,9 +3,9 @@ import React from 'react'
 
 import logo from '../assets/img/logo 1.png'
 import '../assets/styles/About.css'
-import wallpaper from '../assets/img/wallpaper.jpg'
+import temple from '../assets/img/temple.jpg'
 import team from '../assets/img/team.jpeg'
-import safarina from '../assets/img/safarina.jpg'
+import mixed from '../assets/img/mixed.jpg'
 import praise from '../assets/img/somafo.jpg'
 
 function About() {
@@ -14,7 +14,7 @@ function About() {
     
     <div className="container">
       
-      <img className="step" src={wallpaper} alt="man in white" />
+      <img className="step" src={temple} alt="man in white" />
       
       
     </div>
@@ -42,7 +42,7 @@ function About() {
       </div>
 
       <div className="opinion">
-        <img src={safarina} id="tafos" />
+        <img src={mixed} id="tafos" />
       </div>
       <div className="middle">
         <h1>

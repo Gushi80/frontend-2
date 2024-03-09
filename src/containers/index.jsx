@@ -24,7 +24,7 @@ function Index() {
       <div className="social">
         <Link to=""><i className="fa-solid fa-location-dot"></i></Link>
         <h4>ADDRESS</h4>
-        <p>EKUMFI OTUAM-CENTRAL REGION</p>
+        <p>3090 Pine Valley Rd, Columbus OHIO, 43219</p>
 
 
     </div>
@@ -32,12 +32,12 @@ function Index() {
     <div>
       <Link to=""><i className="fa-solid fa-phone"></i></Link>
       <h4>PHONE</h4>
-      <p>+2335454545445</p>
+      <p>+1906506291 OR +15185026174</p>
     </div>
     <div>
       <Link to=""><i className="fa-regular fa-envelope"></i></Link>
       <h4>EMAIL ADDRESS</h4>
-      <p>asomdweentontonsomofficial@gmail.com</p>
+      <p>asomdweentontonsomdiaspora@gmail.com</p>
     </div>
     </div>
 
